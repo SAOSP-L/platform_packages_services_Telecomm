@@ -41,4 +41,21 @@
     <string name="no_vm_number" msgid="4164780423805688336">"Не указан номер голосовой почты"</string>
     <string name="no_vm_number_msg" msgid="1300729501030053828">"На SIM-карте нет ни одного номера голосовой почты."</string>
     <string name="add_vm_number_str" msgid="4676479471644687453">"Добавить номер"</string>
+    
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">Чёрный список</string>
+    <string name="blacklist_summary_disabled">Отключен</string>
+    <string name="blacklist_summary">Вы не будете получать входящие вызовы или сообщения от телефонных номеров из черного списка</string>
+
+    <!-- Blacklist notifications -->
+    <string name="blacklist_call_notification">Вызов от %s отклонён</string>
+    <string name="blacklist_call_notification_private_number">Вызов со скрытого номера отклонён</string>
+    <string name="blacklist_call_notification_unknown_number">Вызов с неизвестного номера (%s) отклонён</string>
+    <string name="blacklist_call_notification_multiple">Отклонено вызовов: <xliff:g id="count">%d</xliff:g></string>
+    <string name="blacklist_message_notification">Сообщение от %s заблокировано</string>
+    <string name="blacklist_message_notification_private_number">Сообщение со скрытого номера заблокировано</string>
+    <string name="blacklist_message_notification_unknown_number">Сообщение от неизвестного номера %s заблокировано</string>
+    <string name="blacklist_message_notification_multiple">Заблокировано сообщений: <xliff:g id="count">%d</xliff:g></string>
+    <string name="blacklist_notification_list_private">Скрытый номер</string>
+    <string name="unblock_number">Разблокировать</string>
 </resources>
