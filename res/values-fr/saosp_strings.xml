@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">Liste des appelants bloqués</string>
+    <string name="blacklist_summary_disabled">Désactivé</string>
+    <string name="blacklist_summary">Vous ne recevrez pas les appels entrants ou les messages à partir des numéros de téléphone de la liste des appelants bloqués</string>
+
+    <!-- Blacklist notifications -->
+    <string name="blacklist_call_notification">Bloquer l\'appel du %s</string>
+    <string name="blacklist_call_notification_private_number">Bloquer l\'appel du numéro privé</string>
+    <string name="blacklist_call_notification_unknown_number">Bloquer l\'appel du numéro inconnu %s</string>
+    <string name="blacklist_call_notification_multiple"><xliff:g id="count">%d</xliff:g> appels ont été bloqués</string>
+    <string name="blacklist_message_notification">Bloquer un message du %s</string>
+    <string name="blacklist_message_notification_private_number">Bloquer un message du numéro privé</string>
+    <string name="blacklist_message_notification_unknown_number">Bloquer un message du numéro inconnu %s</string>
+    <string name="blacklist_message_notification_multiple"><xliff:g id="count">%d</xliff:g> messages ont été bloqués</string>
+    <string name="blacklist_notification_list_private">Privé</string>
+    <string name="unblock_number">Débloquer</string>
+
+</resources>
